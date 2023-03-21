@@ -25,4 +25,8 @@ function startGame() {
     const introText = document.querySelector("h2");
     introText.classList.add("hidden");
     grid.classList.remove("hidden");
+
+    for (let i = 1; i <= cellsNumber; i++) {
+        const newElem = createGridElem (i);
+    }
 }
